@@ -2,13 +2,14 @@
   "name": "secured-crud-api",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "A simple enough implementation of a secured CRUD api using Sails.js ",
   "keywords": [],
   "dependencies": {
     "include-all": "~0.1.3",
     "rc": "~0.5.0",
     "sails": "~0.11.4",
-    "sails-disk": "~0.10.0"
+    "sails-disk": "~0.10.0",
+    "sails-postgresql": "^0.11.1"
   },
   "scripts": {
     "debug": "node debug app.js",
@@ -17,8 +18,8 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/newscred/secured-crud-api.git"
+    "url": "git://github.com/dibosh/secured-crud-api.git"
   },
-  "author": "newscred",
+  "author": "dibosh",
   "license": ""
 }
